@@ -1,0 +1,22 @@
+.gallery-item {
+    position: relative;
+    width: calc(33.33% - 10px); 
+    cursor: pointer;
+  }
+  
+  /* Зображення */
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
